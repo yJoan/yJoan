@@ -20,6 +20,6 @@ int main(int argc, char *argv[])
     view.setBackgroundBrush(QPixmap("cm.png"));
     view.show();
     view.setDragMode(QGraphicsView::ScrollHandDrag);
-    view.setWindowTitle("图形项");
+    view.setWindowTitle("Graphics");
     return a.exec();
 }
