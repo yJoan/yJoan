@@ -8,8 +8,6 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-   // testGrap *w =new testGrap();
-    //w->show();
     QGraphicsScene scene;
     QGraphicsRectItem *gItem = new QGraphicsRectItem(0,0,100,100);
     scene.addItem(gItem);
