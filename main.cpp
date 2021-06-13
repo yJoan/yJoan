@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     QGraphicsView view(&scene);
 
     view.resize(400,400);
-    view.setForegroundBrush(QColor(55,155,200,100));
+    view.setForegroundBrush(QColor(100,155,200,100));
     view.setBackgroundBrush(QPixmap("cm.png"));
     view.show();
     view.setDragMode(QGraphicsView::ScrollHandDrag);
